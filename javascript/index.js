@@ -3143,6 +3143,22 @@ let ivana = new Queen("Ivana Vamp", 6, 5, 6, 6, 6, 6, 5, "Ivana");
 let riche = new Queen("Le Riche", 6, 8, 6, 8, 9, 8, 7, "Riche");
 let luquisha = new Queen("Luquisha Lubamba", 7, 6, 6, 5, 7, 6, 7, "Luquisha");
 let italia = [ava, divinity, elecktra, enorma, farida, ivana, riche, luquisha];
+// HADDOZ SEASON
+var church = new Queen("Church", 7, 6, 7, 9, 7, 8, 9, "img/Haddoz/ChurchHaddoz.jpg");
+var dyslexiella = new Queen("Dyslexiella", 11, 9, 11, 15, 15, 15, 12, "img/Haddoz/DyslexiellaHaddoz.jpg");
+var galore = new Queen("Galore", 7, 9, 8, 5, 10, 7, 9, "img/Haddoz/GaloreHaddoz.jpg");
+var kamiya = new Queen("Kamiya", 5, 6, 5, 4, 6, 4, 5, "img/Haddoz/KamiyaHaddoz.jpg");
+var moreau = new Queen("Moreau", 10, 9, 7, 7, 5, 7, 9, "img/Haddoz/MoreauHaddoz.jpg");
+var parishx = new Queen("ParisHX", 8, 8, 7, 9, 8, 8, 9, "img/Haddoz/ParisHXHaddoz.jpg");
+var paulisqueen = new Queen("PaulisQueen", 5, 3, 6, 6, 2, 4, 4, "img/Haddoz/PaulisQueenHaddoz.jpg");
+var plastiq = new Queen("Plastiq", 9, 5, 5, 6, 8, 8, 10, "img/Haddoz/PlastiqHaddoz.jpg");
+var rubberdoll = new Queen("RubberDoll", 8, 5, 8, 11, 10, 10, 7, "img/Haddoz/RubberDollHaddoz.jpg");
+var sadtanas = new Queen("Sadtanas", 6, 6, 5, 6, 5, 6, 7, "img/Haddoz/SadtanasHaddoz.jpg");
+var satinz = new Queen("Satinz", 7, 7, 6, 6, 6, 6, 6, "img/Haddoz/SatinzHaddoz.jpg");
+var serenavw = new Queen("SerenaVW", 9, 10, 10, 7, 7, 9, 11, "img/Haddoz/SerenaVWHaddoz.jpg");
+var sorn = new Queen("Sorn", 5, 4, 5, 6, 5, 10, 7, "img/Haddoz/SornHaddoz.jpg");
+var witchlolita = new Queen("Witchlolita", 7, 6, 8, 14, 11, 14, 10, "img/Haddoz/WitchlolitaHaddoz.jpg");
+var haddoz = [church, dyslexiella, galore, kamiya, moreau, parishx, paulisqueen, plastiq, rubberdoll, sadtanas, satinz, serenavw, sorn, witchlolita];
 //SPECIAL
 let pangina = new Queen("Pangina Heals", 10, 10, 9, 12, 9, 13, 11, "Pangina");
 let international_as = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
@@ -3184,6 +3200,7 @@ let allQueens = [
     arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
     adriana, beth, eve, giametric, icesis, kendall, kimoraA, oceane, pythia, stephanie, suki, synthia,
     ava, divinity, elecktra, enorma, farida, ivana, riche, luquisha,
+    church, dyslexiella, galore, kamiya, moreau, parishx, paulisqueen, plastiq, rubberdoll, sadtanas, satinz, serenavw, sorn, witchlolita,
     pangina
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
