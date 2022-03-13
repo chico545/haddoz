@@ -134,7 +134,7 @@ function actingChallenge() {
     challengeScreen.createParagraph("", "Description");
     let challenge = new ActingChallenge();
     challenge.generateDescription();
-    if (randomNumber(0, 100) >= 90 && currentCast.length >= 6 && currentCast.length <= 12 &&!isTeamChallenge && (top3 || top4)){
+    if (randomNumber(0, 100) >= 30 && currentCast.length >= 6 && currentCast.length <= 12 &&!isTeamChallenge && (top3 || top4)){
         isTeamChallenge = true;
         challenge.rankPerformances();
         challenge.teamMaking();
@@ -313,7 +313,7 @@ function improvChallenge() {
     challengeScreen.createParagraph("", "Description");
     let challenge = new ImprovChallenge();
     challenge.generateDescription();
-    if (randomNumber(0, 100) >= 90 && currentCast.length >= 6 && currentCast.length <= 12 &&!isTeamChallenge && (top3 || top4)){
+    if (randomNumber(0, 100) >= 30 && currentCast.length >= 6 && currentCast.length <= 12 &&!isTeamChallenge && (top3 || top4)){
         isTeamChallenge = true;
         challenge.rankPerformances();
         challenge.teamMaking();
